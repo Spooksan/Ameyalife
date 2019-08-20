@@ -149,10 +149,25 @@ header .navbar .dropdown-menu a {
 }
 
 /* Owl Carousel */
+.owl-carousel.home-slider {
+  z-index: 1;
+  position: relative;
+  opacity: 0.5;
+  text-align: center;
+  font: caption;
+  font-size: 10px;
+}
+
+
 .owl-carousel .owl-item {
   opacity: .4;
 }
-
+.owl-carousel .owl-item img {
+  display: block;
+  width: 40%;
+  position: relative;
+  left: 32%;
+}
 .owl-carousel .owl-item.active {
   opacity: 1;
 }
@@ -500,7 +515,7 @@ header .navbar .dropdown-menu a {
 }
 
 .section {
-  padding: 7em 0;
+  padding: 3em 0;
 }
 
 .cta-link {
