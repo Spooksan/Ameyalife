@@ -823,7 +823,7 @@ header .navbar .dropdown-menu a {
 
 .hosp {
 	text-align: center !important;
-	background-image: url("../img/gif/hospital2.gif");
+	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/gif/hospital2.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-shadow: 1px 2px 3px dimgrey;
@@ -855,7 +855,7 @@ header .navbar .dropdown-menu a {
 
 .hosp2 {
 	text-align: center !important;
-	background-image: url("../img/gif/hospital1.gif");
+	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/gif/hospital1.gif");
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: dimgrey;
@@ -872,7 +872,7 @@ header .navbar .dropdown-menu a {
 }
 
 .bow {
-	background-image: url(../img/gif/treatment1.gif);
+	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/gif/treatment1.gif);
 	background-size: 45%;
 	background-repeat: no-repeat;
 	color: black;
@@ -904,7 +904,7 @@ header .navbar .dropdown-menu a {
 
 .promoter {
 	text-align: center;
-	background-image: url("../img/gif/doc.gif");
+	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/gif/doc.gif");
 	background-size: 55%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -913,11 +913,75 @@ header .navbar .dropdown-menu a {
 .knowledge_p {
 	text-align: center;
 	text-shadow: 1px 2px 3px grey;
-	background-image: url("../img/gif/about_partners.gif");
+	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/gif/about_partners.gif");
 	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .knowledge_p ul {
 	list-style-type: none;
+}
+
+.galleria h1 {
+	font-family: Raleway;
+	color: black;
+	text-shadow: 1px 2px 3px dimgrey;
+	text-decoration: #000 underline;
+	margin-bottom: 30px !important;
+	text-align: center;
+}
+
+.galleria img {
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+	-webkit-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+	margin-bottom: 20px;
+	width: 100%;
+	height: 200px;
+}
+
+.galleria img:hover {
+	filter: none; /* IE6-9 */
+	-webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+.galleria p {
+	color: black;
+	text-align: center;
+	text-shadow: 1px 2px 3px grey;
+}
+.galleria {
+	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/gallery/backg.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.corporate h1 {
+	font-family: Raleway;
+	color: black;
+	text-shadow: 1px 2px 3px dimgrey;
+	text-decoration: #000 underline;
+	margin-bottom: 30px !important;
+	text-align: center;
+}
+.corporate li {
+	color: black;
+	text-align: center;
+	text-shadow: 1px 2px 3px grey;
+	padding-bottom: 10px;
+}
+.corporate ul {
+	list-style-type: none;
+}
+.corporate {
+	text-align: center;
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("../img/gif/corporate.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
